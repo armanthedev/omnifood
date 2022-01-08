@@ -1,0 +1,85 @@
+/* Extra large devices (large laptops and desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+/* Large devices (laptops/desktops, 768px to 1023 */
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px
+    }
+    .hero-text-box {
+        transform: translate(-50%, -100%);
+    }
+
+    header {
+       height: 800px;
+      
+    }
+
+    section {
+        padding: 60px 0
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .step-box:last-child {
+        margin-top: 40px;
+    }
+
+    .app-screen {
+        width: 50%
+    }
+
+    .work-step {
+        margin-bottom: 30px;
+    }
+
+    .work-step:last-of-type {
+        margin-bottom: 20%;
+    }
+
+    .cities-features {
+        font-size: 85%;
+        margin-bottom: 10px
+    }
+
+    .small-icons {
+        font-size: 100%;
+        margin-right: 5px
+    }
+
+    p.plan-price {
+        font-size: 170%;
+    }
+
+    .footer-nav li a:link,
+    .footer-nav li a:visited {
+        font-size: 80%;
+
+    }
+
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+    ...
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    ...
+}
